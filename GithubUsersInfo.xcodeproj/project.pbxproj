@@ -9,11 +9,19 @@
 /* Begin PBXBuildFile section */
 		11C44CAA1E76FB38000ECEF0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 11C44CA91E76FB38000ECEF0 /* main.m */; };
 		11C44CAD1E76FB38000ECEF0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 11C44CAC1E76FB38000ECEF0 /* AppDelegate.m */; };
-		11C44CB01E76FB38000ECEF0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11C44CAF1E76FB38000ECEF0 /* ViewController.m */; };
 		11C44CB31E76FB38000ECEF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11C44CB11E76FB38000ECEF0 /* Main.storyboard */; };
 		11C44CB61E76FB38000ECEF0 /* GithubUsersInfo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 11C44CB41E76FB38000ECEF0 /* GithubUsersInfo.xcdatamodeld */; };
 		11C44CB81E76FB38000ECEF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11C44CB71E76FB38000ECEF0 /* Assets.xcassets */; };
 		11C44CBB1E76FB38000ECEF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11C44CB91E76FB38000ECEF0 /* LaunchScreen.storyboard */; };
+		11C44CC41E772311000ECEF0 /* UsersTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11C44CC31E772311000ECEF0 /* UsersTableViewController.m */; };
+		11C44CC71E7726DA000ECEF0 /* GithubSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 11C44CC61E7726DA000ECEF0 /* GithubSessionManager.m */; };
+		11C44CCA1E77BEF5000ECEF0 /* GithubUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 11C44CC91E77BEF5000ECEF0 /* GithubUser.m */; };
+		11C44CCD1E77D1A1000ECEF0 /* UserTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 11C44CCC1E77D1A1000ECEF0 /* UserTableViewCell.m */; };
+		11C44CD01E77ED29000ECEF0 /* UserDescriptionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11C44CCF1E77ED29000ECEF0 /* UserDescriptionViewController.m */; };
+		11C44CD31E77FB3D000ECEF0 /* UserRepositoriesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11C44CD21E77FB3D000ECEF0 /* UserRepositoriesTableViewController.m */; };
+		11C44CD61E781769000ECEF0 /* GithubRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = 11C44CD51E781769000ECEF0 /* GithubRepository.m */; };
+		11C44CD91E791DAC000ECEF0 /* UsersSearchTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11C44CD81E791DAC000ECEF0 /* UsersSearchTableViewController.m */; };
+		95F9EEB31828546B47BA3501 /* libPods-GithubUsersInfo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 24B89B698FAC3F3BDC8D2634 /* libPods-GithubUsersInfo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,13 +29,30 @@
 		11C44CA91E76FB38000ECEF0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		11C44CAB1E76FB38000ECEF0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		11C44CAC1E76FB38000ECEF0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		11C44CAE1E76FB38000ECEF0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		11C44CAF1E76FB38000ECEF0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		11C44CB21E76FB38000ECEF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		11C44CB51E76FB38000ECEF0 /* GithubUsersInfo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GithubUsersInfo.xcdatamodel; sourceTree = "<group>"; };
 		11C44CB71E76FB38000ECEF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		11C44CBA1E76FB38000ECEF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		11C44CBC1E76FB38000ECEF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11C44CC21E772311000ECEF0 /* UsersTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UsersTableViewController.h; sourceTree = "<group>"; };
+		11C44CC31E772311000ECEF0 /* UsersTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UsersTableViewController.m; sourceTree = "<group>"; };
+		11C44CC51E7726DA000ECEF0 /* GithubSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GithubSessionManager.h; sourceTree = "<group>"; };
+		11C44CC61E7726DA000ECEF0 /* GithubSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GithubSessionManager.m; sourceTree = "<group>"; };
+		11C44CC81E77BEF5000ECEF0 /* GithubUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GithubUser.h; sourceTree = "<group>"; };
+		11C44CC91E77BEF5000ECEF0 /* GithubUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GithubUser.m; sourceTree = "<group>"; };
+		11C44CCB1E77D1A1000ECEF0 /* UserTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserTableViewCell.h; sourceTree = "<group>"; };
+		11C44CCC1E77D1A1000ECEF0 /* UserTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserTableViewCell.m; sourceTree = "<group>"; };
+		11C44CCE1E77ED29000ECEF0 /* UserDescriptionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDescriptionViewController.h; sourceTree = "<group>"; };
+		11C44CCF1E77ED29000ECEF0 /* UserDescriptionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDescriptionViewController.m; sourceTree = "<group>"; };
+		11C44CD11E77FB3D000ECEF0 /* UserRepositoriesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserRepositoriesTableViewController.h; sourceTree = "<group>"; };
+		11C44CD21E77FB3D000ECEF0 /* UserRepositoriesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserRepositoriesTableViewController.m; sourceTree = "<group>"; };
+		11C44CD41E781769000ECEF0 /* GithubRepository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GithubRepository.h; sourceTree = "<group>"; };
+		11C44CD51E781769000ECEF0 /* GithubRepository.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GithubRepository.m; sourceTree = "<group>"; };
+		11C44CD71E791DAC000ECEF0 /* UsersSearchTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UsersSearchTableViewController.h; sourceTree = "<group>"; };
+		11C44CD81E791DAC000ECEF0 /* UsersSearchTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UsersSearchTableViewController.m; sourceTree = "<group>"; };
+		24B89B698FAC3F3BDC8D2634 /* libPods-GithubUsersInfo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GithubUsersInfo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FE77671805A9DBC345A7CC7 /* Pods-GithubUsersInfo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GithubUsersInfo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GithubUsersInfo/Pods-GithubUsersInfo.debug.xcconfig"; sourceTree = "<group>"; };
+		F57AF6F7229763E42308FC2E /* Pods-GithubUsersInfo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GithubUsersInfo.release.xcconfig"; path = "Pods/Target Support Files/Pods-GithubUsersInfo/Pods-GithubUsersInfo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +60,58 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95F9EEB31828546B47BA3501 /* libPods-GithubUsersInfo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		11555A721E798AA20092E84B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				11C44CD11E77FB3D000ECEF0 /* UserRepositoriesTableViewController.h */,
+				11C44CD21E77FB3D000ECEF0 /* UserRepositoriesTableViewController.m */,
+				11C44CCE1E77ED29000ECEF0 /* UserDescriptionViewController.h */,
+				11C44CCF1E77ED29000ECEF0 /* UserDescriptionViewController.m */,
+				11C44CD71E791DAC000ECEF0 /* UsersSearchTableViewController.h */,
+				11C44CD81E791DAC000ECEF0 /* UsersSearchTableViewController.m */,
+				11C44CC21E772311000ECEF0 /* UsersTableViewController.h */,
+				11C44CC31E772311000ECEF0 /* UsersTableViewController.m */,
+				11C44CC51E7726DA000ECEF0 /* GithubSessionManager.h */,
+				11C44CC61E7726DA000ECEF0 /* GithubSessionManager.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		11555A731E798AB50092E84B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				11C44CB11E76FB38000ECEF0 /* Main.storyboard */,
+				11C44CCB1E77D1A1000ECEF0 /* UserTableViewCell.h */,
+				11C44CCC1E77D1A1000ECEF0 /* UserTableViewCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		11555A741E798B290092E84B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				11C44CC81E77BEF5000ECEF0 /* GithubUser.h */,
+				11C44CC91E77BEF5000ECEF0 /* GithubUser.m */,
+				11C44CD41E781769000ECEF0 /* GithubRepository.h */,
+				11C44CD51E781769000ECEF0 /* GithubRepository.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		11C44C9C1E76FB37000ECEF0 = {
 			isa = PBXGroup;
 			children = (
 				11C44CA71E76FB38000ECEF0 /* GithubUsersInfo */,
 				11C44CA61E76FB38000ECEF0 /* Products */,
+				2FAA6F0CCECC84C85E80D3CE /* Pods */,
+				47A64A8D3018F02CBD37B511 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,15 +126,9 @@
 		11C44CA71E76FB38000ECEF0 /* GithubUsersInfo */ = {
 			isa = PBXGroup;
 			children = (
-				11C44CAB1E76FB38000ECEF0 /* AppDelegate.h */,
-				11C44CAC1E76FB38000ECEF0 /* AppDelegate.m */,
-				11C44CAE1E76FB38000ECEF0 /* ViewController.h */,
-				11C44CAF1E76FB38000ECEF0 /* ViewController.m */,
-				11C44CB11E76FB38000ECEF0 /* Main.storyboard */,
-				11C44CB71E76FB38000ECEF0 /* Assets.xcassets */,
-				11C44CB91E76FB38000ECEF0 /* LaunchScreen.storyboard */,
-				11C44CBC1E76FB38000ECEF0 /* Info.plist */,
-				11C44CB41E76FB38000ECEF0 /* GithubUsersInfo.xcdatamodeld */,
+				11555A721E798AA20092E84B /* Controllers */,
+				11555A731E798AB50092E84B /* Views */,
+				11555A741E798B290092E84B /* Model */,
 				11C44CA81E76FB38000ECEF0 /* Supporting Files */,
 			);
 			path = GithubUsersInfo;
@@ -77,9 +137,32 @@
 		11C44CA81E76FB38000ECEF0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				11C44CB71E76FB38000ECEF0 /* Assets.xcassets */,
+				11C44CB91E76FB38000ECEF0 /* LaunchScreen.storyboard */,
+				11C44CBC1E76FB38000ECEF0 /* Info.plist */,
+				11C44CB41E76FB38000ECEF0 /* GithubUsersInfo.xcdatamodeld */,
+				11C44CAB1E76FB38000ECEF0 /* AppDelegate.h */,
+				11C44CAC1E76FB38000ECEF0 /* AppDelegate.m */,
 				11C44CA91E76FB38000ECEF0 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2FAA6F0CCECC84C85E80D3CE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8FE77671805A9DBC345A7CC7 /* Pods-GithubUsersInfo.debug.xcconfig */,
+				F57AF6F7229763E42308FC2E /* Pods-GithubUsersInfo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		47A64A8D3018F02CBD37B511 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24B89B698FAC3F3BDC8D2634 /* libPods-GithubUsersInfo.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -89,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 11C44CBF1E76FB38000ECEF0 /* Build configuration list for PBXNativeTarget "GithubUsersInfo" */;
 			buildPhases = (
+				380F1E1328F5669815AA81D1 /* [CP] Check Pods Manifest.lock */,
 				11C44CA11E76FB37000ECEF0 /* Sources */,
 				11C44CA21E76FB37000ECEF0 /* Frameworks */,
 				11C44CA31E76FB37000ECEF0 /* Resources */,
+				D3B80A5907B00B9314FB383D /* [CP] Embed Pods Frameworks */,
+				321CB5D9D6D2C684A6497D35 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -148,15 +234,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		321CB5D9D6D2C684A6497D35 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GithubUsersInfo/Pods-GithubUsersInfo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		380F1E1328F5669815AA81D1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D3B80A5907B00B9314FB383D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GithubUsersInfo/Pods-GithubUsersInfo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		11C44CA11E76FB37000ECEF0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11C44CB01E76FB38000ECEF0 /* ViewController.m in Sources */,
+				11C44CCD1E77D1A1000ECEF0 /* UserTableViewCell.m in Sources */,
 				11C44CB61E76FB38000ECEF0 /* GithubUsersInfo.xcdatamodeld in Sources */,
+				11C44CD31E77FB3D000ECEF0 /* UserRepositoriesTableViewController.m in Sources */,
 				11C44CAD1E76FB38000ECEF0 /* AppDelegate.m in Sources */,
+				11C44CC41E772311000ECEF0 /* UsersTableViewController.m in Sources */,
+				11C44CD91E791DAC000ECEF0 /* UsersSearchTableViewController.m in Sources */,
+				11C44CD01E77ED29000ECEF0 /* UserDescriptionViewController.m in Sources */,
+				11C44CD61E781769000ECEF0 /* GithubRepository.m in Sources */,
 				11C44CAA1E76FB38000ECEF0 /* main.m in Sources */,
+				11C44CC71E7726DA000ECEF0 /* GithubSessionManager.m in Sources */,
+				11C44CCA1E77BEF5000ECEF0 /* GithubUser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +413,7 @@
 		};
 		11C44CC01E76FB38000ECEF0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FE77671805A9DBC345A7CC7 /* Pods-GithubUsersInfo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GithubUsersInfo/Info.plist;
@@ -283,6 +425,7 @@
 		};
 		11C44CC11E76FB38000ECEF0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F57AF6F7229763E42308FC2E /* Pods-GithubUsersInfo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GithubUsersInfo/Info.plist;
@@ -311,6 +454,7 @@
 				11C44CC11E76FB38000ECEF0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
